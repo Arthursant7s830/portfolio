@@ -8,20 +8,60 @@
 
 :root {
     --cor01: #8A6FB1;
-    
+    --cor02: #291c3af1;
+    --cor03: #331C52;
+    --cor04: #8121D0;
+    --cor05: #DCCFED;
+    --cor06: #E1EBED;
+    --cor07: #FFFFFF;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+
+    background-color: var(--cor06);
+
 }
 
 header {
+    height: 250px;
     padding: 40px;
-    border: 1px solid black;
+    background: linear-gradient(to right, var(--cor03), var(--cor02));
+    /* border: 1px solid #291C3A; */
 }
 
-header > h1 {
-    font-size: 3.5em;
+header>h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    text-shadow: 3px 4px 3px #331c52cc;
+    margin-top: 13px;
     margin-bottom: 8px;
     color: #8A6FB1;
 }
 
-header > p {
+header>p {
     font-size: 2em;
+    color: var(--cor07);
+}
+
+section#sobre {
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+    text-align: justify;
+    background-color: var(--cor05);
+}
+
+section#sobre>h2 {
+    font-size: 2em;
+    color: var(--cor03);
+    margin-bottom: 10px;
+}
+
+section#sobre>p {
+font-size: 1.1em;
+line-height: 1.5;
 }
