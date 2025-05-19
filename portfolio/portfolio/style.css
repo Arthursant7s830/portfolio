@@ -37,7 +37,7 @@ header {
 }
 
 header>h1 {
-    font-size: 5em;
+    font-size: 4.5em;
     font-weight: bolder;
     text-shadow: 3px 4px 3px #331c52cc;
     margin-top: 13px;
@@ -68,4 +68,8 @@ section#sobre {
 
 section#sobre > p {
     font-size: 1.2em;
+}
+
+section#projetos > h2 {
+    color: #331C52;
 }
