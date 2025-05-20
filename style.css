@@ -41,8 +41,6 @@ header {
 }
 
 header>h1 {
-    font-size: 4.5em;
-
     font-size: 4em;
     font-weight: bolder;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,15 +48,13 @@ header>h1 {
     margin-top: 13px;
     margin-bottom: 8px;
 
-    color: #a38ec0;
+    color: #a896c0;
 }
 
 header>p {
     font-size: 1.6em;
     color: var(--cor06);
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.406);
-
-
 }
 
 main {
@@ -74,7 +70,7 @@ section#sobre {
     margin: auto;
     display: block;
     max-width: 500px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 3px 4px 10px #b2bec0a8;
 
 
@@ -82,7 +78,7 @@ section#sobre {
 
 section#sobre>h2 {
     margin-bottom: 10px;
-    color: var(--cor03);
+    color: #8A6FB1;
 }
 
 section#sobre>p {
@@ -96,32 +92,48 @@ section#projetos {
     padding: 12px;
     margin-top: 40px;
     background-color: #FFFFFF;
-    border-radius: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 4px 10px #b2bec0a8;
+}
 
-
+section#projetos>h2 {
+    text-align: center;
+    color: #8A6FB1;
+    margin-bottom: 10px;
 }
 
 div.card {
     background: linear-gradient(to right, var(--cor04), var(--cor03));
     color: white;
     margin: 50px;
+    margin-top: 15px;
     padding: 40px;
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    
+
 }
 
 div.card>h2 {
     font-size: 2.5em;
+    font-weight: bolder;
     margin-bottom: 10px;
+
+
 }
 
-div.card > a {
+div.card>a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 
-div.card > a:hover {
-    color: #976ece;
+div.card>a:hover {
+    color:#d6d2d2;
+}
+
+section#contato {
+    background-color: #8A6FB1;
+    margin-top: 20px;
+
 }
