@@ -91,13 +91,36 @@ section#sobre>p {
     color: var(--cor03);
 }
 
- section#projetos>h2 {
-    color: #331C52;
- }
-    section#projetos {
-        padding: 12px;
-        margin-top: 40px;
-        background-color: #FFFFFF;
-        border-radius: 20px;
 
-    }
+section#projetos {
+    padding: 12px;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+
+
+}
+
+div.card {
+    background: linear-gradient(to right, var(--cor04), var(--cor03));
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+div.card>h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+div.card > a {
+    text-decoration: none;
+    color: white;
+}
+
+div.card > a:hover {
+    color: #DCCFED;
+}
