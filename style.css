@@ -104,6 +104,7 @@ section#projetos {
 div.card {
     background: linear-gradient(to right, var(--cor04), var(--cor03));
     color: white;
+    margin: 50px;
     padding: 40px;
     border-radius: 20px;
     text-align: center;
