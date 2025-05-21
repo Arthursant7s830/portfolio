@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +27,11 @@
     --cor05: #DCCFED;
     --cor06: #E1EBED;
     --cor07: #FFFFFF;
-    --fonte01:'Poppins', sans-serif;
+    --fonte01: 'Poppins', sans-serif;
     --fonte02: "Roboto Serif", serif;
-    
+    --fonte03: "Bebas Neue", sans-serif;
+
+
 }
 
 html,
@@ -75,8 +89,6 @@ section#sobre {
     max-width: 500px;
     border-radius: 15px;
     box-shadow: 3px 4px 10px #b2bec0a8;
-
-
 }
 
 section#sobre>h2 {
@@ -118,6 +130,14 @@ div.card {
     text-align: center;
 }
 
+div.card:hover {
+    color: #8A6FB1;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.05);
+    box-shadow: 5px 8px 10px #00000048;
+}
+
 div.card>h2 {
     font-size: 2.5em;
     font-weight: bolder;
@@ -133,6 +153,7 @@ div.card>a {
 
 div.card>a:hover {
     color: #d6d2d2;
+
 }
 
 section#contato {
@@ -145,11 +166,5 @@ section#contato>h2 {
     padding: 10px;
     color: #FFFFFF;
     font-size: 1.5em;
-    font-family: var(--fonte01) ;
+    font-family: var(--fonte01);
 }
-
-/* footer {
-    text-align: center;
-    background: linear-gradient(to right, var(--cor03), var(--cor02));
-    height: 200px;
-} */
