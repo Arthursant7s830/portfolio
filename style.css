@@ -157,7 +157,9 @@ div.card>a:hover {
 section#contato {
     background-color: #8A6FB1;
     margin-top: 20px;
-    max-width: 500px;
+    padding: 40px;
+    width: 500px;
+    height:400px;
     margin: auto;
     margin-top: 100px;
 }
@@ -171,19 +173,24 @@ section#contato>h2 {
 }
 
 .redes-sociais {
-  display: flex;              /* Deixa os ícones em linha */
-  gap: 15px;                  /* Espaço entre os ícones */
-  justify-content: center;   /* Centraliza se quiser */
-  align-items: center;
-  margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .redes-sociais img {
-  width: 32px;                /* Define o mesmo tamanho para todos */
-  height: 32px;
-  transition: transform 0.3s; /* Animação ao passar o mouse */
+    width: 40px;
+    height: px;
+    transition: transform 0.3s;
 }
 
 .redes-sociais img:hover {
-  transform: scale(1.2);      /* Aumenta um pouco ao passar o mouse */
+    transform: scale(1.4);
+    cursor: pointer;
+     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+   
+
+
 }
