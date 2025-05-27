@@ -37,6 +37,7 @@
 html,
 body {
     height: 100vh;
+    width: 100%;
 
 }
 
@@ -169,3 +170,20 @@ section#contato>h2 {
     font-family: var(--fonte01);
 }
 
+.redes-sociais {
+  display: flex;              /* Deixa os ícones em linha */
+  gap: 15px;                  /* Espaço entre os ícones */
+  justify-content: center;   /* Centraliza se quiser */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.redes-sociais img {
+  width: 32px;                /* Define o mesmo tamanho para todos */
+  height: 32px;
+  transition: transform 0.3s; /* Animação ao passar o mouse */
+}
+
+.redes-sociais img:hover {
+  transform: scale(1.2);      /* Aumenta um pouco ao passar o mouse */
+}
