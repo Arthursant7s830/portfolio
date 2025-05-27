@@ -142,8 +142,6 @@ div.card:hover {
     box-shadow: 5px 8px 10px #00000048;
 }
 
-div.card>h2 {}
-
 div.card>a {
     text-decoration: none;
     color: white;
@@ -158,6 +156,9 @@ div.card>a:hover {
 section#contato {
     background-color: #8A6FB1;
     margin-top: 20px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
 }
 
 section#contato>h2 {
@@ -166,10 +167,5 @@ section#contato>h2 {
     color: #FFFFFF;
     font-size: 1.5em;
     font-family: var(--fonte01);
-}
-
-section#contato {
-    padding: 20px;
-    font-size: 1.1em;
 }
 
