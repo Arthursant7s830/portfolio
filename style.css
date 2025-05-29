@@ -40,11 +40,24 @@ body {
     width: 100%;
 
 }
-
-body {
-    background-color: var(--cor06);
-
+  
+    body {
+  background-image: url("imagens/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(138, 134, 134, 0.5); /* escurece */
+  z-index: -1;
+}
+
+
 
 header {
     height: 230px;
@@ -159,9 +172,10 @@ section#contato {
     margin-top: 20px;
     padding: 40px;
     width: 500px;
-    height:400px;
+    height: 300px;
     margin: auto;
     margin-top: 100px;
+    border-radius: 30px;
 }
 
 section#contato>h2 {
@@ -189,5 +203,16 @@ section#contato>h2 {
 .redes-sociais img:hover {
     transform: scale(1.4);
     cursor: pointer;
-     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.6s ease;
+}
+
+.reveal.ativo {
+    opacity: 1;
+    transform: translateY(0);
 }
