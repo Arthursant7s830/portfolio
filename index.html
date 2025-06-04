@@ -11,10 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
 </head>
 
 <body>
     <main>
+        <!-- SIDEBAR -->
         <aside class="sidebar">
             <div class="sidebarinf">
                 <figure class="avatar">
@@ -54,23 +59,23 @@
                 </li>
 
                 <li class="item-contato">
-                
-                <div class="icon-box">
-                    <ion-icon name="phone-portrait-outline"></ion-icon>
-                </div>
 
-                <div class="info-contato">
-                    <p class="titulo-contato"></p>
+                    <div class="icon-box">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                    </div>
 
-                    <a href="tel:+5577981234253" class="link-contato">+55 77 98123-4353</a>
-                </div>
+                    <div class="info-contato">
+                        <p class="titulo-contato"></p>
+
+                        <a href="tel:+5577981234253" class="link-contato">+55 77 98123-4353</a>
+                    </div>
 
                 </li>]
 
                 <li class="item-contato">
 
                     <div class="icon-box">
-                         <ion-icon name="calendar-outline"></ion-icon>
+                        <ion-icon name="calendar-outline"></ion-icon>
                     </div>
 
                     <div class="info-contato">
@@ -84,15 +89,99 @@
                 <li class="item-contato">
 
                     <div class="icon-box">
-                         <ion-icon name="location-outline"></ion-icon>
+                        <ion-icon name="location-outline"></ion-icon>
                     </div>
 
                     <div class="info-contato">
                         <p class="titulo-contato">Localização</p>
+
+                        <address> Igaporã, Bahia, Brasil</address>
                     </div>
+
+                </li>
+
+            </ul>
+
+            <div class="separador"></div>
+
+            <ul class="lista-social">
+
+                <li class="item-social">
+                    <a href="#" class="link-social">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="item-social">
+                    <a href="#" class="link-social">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="item-social">
+                    <a href="#" class="link-social">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
                 </li>
             </ul>
         </aside>
+
+        <div class="conteudo-principal">
+            <!-- NAVBAR -->
+            <nav class="navbar">
+
+                <ul class="navbar-lista">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link ativo" data-nav-link>Sobre</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link ativo" data-nav-link>Resumo</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link ativo" data-nav-link>Portfólio</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link ativo" data-nav-link>Blog</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link ativo" data-nav-link>Contato</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <!-- SEÇÂO SOBRE -->
+            <article class="sobre ativo" date-page="sobre">
+
+                <header>
+                    <h2 class="h2 titulo-article"> Sobre Mim</h2>
+                </header>
+
+                <section class="texto-sobre">
+                    <p>
+                        Sou estudante de Análise e Desenvolvimento de Sistemas na UNIFG, apaixonado por tecnologia e
+                        especializado em desenvolvimento front-end. Estou sempre em busca de aprender mais e evoluir
+                        minhas habilidades, especialmente em HTML, CSS, JavaScript e React.
+                    </p>
+
+                    <p>
+                        Meu objetivo é transformar ideias em interfaces funcionais, modernas e acessíveis. Gosto de
+                        criar experiências digitais que sejam intuitivas e visualmente agradáveis, combinando design com
+                        código. Estou em busca da minha primeira oportunidade como estagiário para aplicar meus
+                        conhecimentos e crescer profissionalmente na área de desenvolvimento web.
+                    </p>
+                </section>
+
+                <!-- SEÇÂO SERVIÇOS -->
+
+                
+            </article>
+        </div>
     </main>
 
 </body>
